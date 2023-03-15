@@ -12,30 +12,4 @@
       "path": "pricingApp"
     }
   ],
-  "settings": {
-    "CRS.AlSubFolderName": "src",
-    "CRS.ExtensionObjectNamePattern": "",
-    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-    "CRS.ObjectNamePrefix": "CCO",
-    "CRS.ObjectNameSuffix": "",
-    "CRS.RemovePrefixFromFilename": true,
-    "CRS.RenameWithGit": false,
-    "al.codeAnalyzers": [
-      "${PerTenantExtensionCop}",
-      "${CodeCop}",
-      "${UICop}"
-    ],
-    "al.enableCodeAnalysis": true,
-    "al.enableCodeActions": true
-  },
-  "extensions": {
-    "recommendations": [
-      "cosmoconsult.cosmo-azure-devops",
-      "ms-dynamics-smb.al",
-      "waldo.crs-al-language-extension",
-      "vscode-icons-team.vscode-icons"
-    ]
-  }
 }
