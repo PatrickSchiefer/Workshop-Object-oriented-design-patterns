@@ -1,0 +1,62 @@
+{
+  "id": "c312f717-e50a-4792-811f-df5b72b24c19",
+  "name": "BC21 - Tests",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "BC21 - Tests",
+  "description": "BC21 - Tests",
+  "dependencies": [
+    {
+      "id": "ba443fdd-0727-4c40-8b35-6ff5ce7a5b0d",
+      "name": "BC21",
+      "publisher": "Default publisher",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "publisher": "Microsoft",
+      "name": "Tests-TestLibraries",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "publisher": "Microsoft",
+      "name": "Library Assert",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "23de40a6-dfe8-4f80-80db-d70f83ce8caf",
+      "publisher": "Microsoft",
+      "name": "Test Runner",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
+      "publisher": "Microsoft",
+      "name": "Any",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "5095f467-0a01-4b99-99d1-9ff1237d286f",
+      "publisher": "Microsoft",
+      "name": "Library Variable Storage",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "application": "21.0.0.0",
+  "platform": "21.0.0.0",
+  "runtime": "10.0",
+  "target": "Cloud",
+  "idRanges": [
+    {
+      "from": 50190,
+      "to": 50199
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
+}

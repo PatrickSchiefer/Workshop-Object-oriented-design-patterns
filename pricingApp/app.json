@@ -1,0 +1,30 @@
+{
+  "id": "9aad930e-56f9-4188-874a-1ecab26ae669",
+  "name": "BC21-Price",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "dependencies": [
+    {
+      "id": "ba443fdd-0727-4c40-8b35-6ff5ce7a5b0d",
+      "name": "BC21",
+      "publisher": "Default publisher",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "application": "21.0.0.0",
+  "platform": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50289
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "target": "Cloud"
+}
