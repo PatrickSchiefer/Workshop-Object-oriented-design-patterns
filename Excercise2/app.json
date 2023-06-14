@@ -1,0 +1,23 @@
+{
+  "id": "ba443fdd-0727-4c40-8b35-6ff5ce7a5b0d",
+  "name": "BC21",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "dependencies": [],
+  "screenshots": [],
+  "application": "21.0.0.0",
+  "platform": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50189
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "target": "Cloud"
+}
