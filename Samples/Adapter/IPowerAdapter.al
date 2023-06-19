@@ -1,0 +1,4 @@
+﻿interface IPowerAdapter
+{
+    procedure Plugin();
+}

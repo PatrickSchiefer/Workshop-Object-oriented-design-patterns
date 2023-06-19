@@ -10,6 +10,9 @@
     },
     {
       "path": "pricingApp"
+    },
+    {
+      "path": "adapter"
     }
   ],
 }
