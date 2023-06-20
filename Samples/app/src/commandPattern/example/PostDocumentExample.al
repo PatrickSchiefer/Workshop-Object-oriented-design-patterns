@@ -10,7 +10,7 @@
 
     local procedure Check(rec: Record "Sales Header")
     begin
-        // Tode Implement Check
+        // Todo Implement Check
     end;
 
     local procedure doPost(rec: Record "Sales Header")

@@ -2,16 +2,16 @@
 {
     procedure Push(value: Interface ICommand)
     var
-        Entry: Codeunit QueueEntry;
+        newEntry: Codeunit QueueEntry;
     begin
-        Entry.SetValue(value);
+        newEntry.SetValue(value);
         if count = 0 then begin
-            first := Entry;
-            last := Entry;
+            first := newEntry;
+            last := newEntry;
         end
         else begin
-            last.SetNextEntry(Entry);
-            last := Entry;
+            last.SetNextEntry(newEntry);
+            last := newEntry;
         end;
         count += 1;
     end;
@@ -34,11 +34,11 @@
 
     procedure ProcessQueue()
     var
-        object: Interface ICommand;
+        entry: Interface ICommand;
     begin
         while GetSize() > 0 do begin
-            object := Pop();
-            object.Execute();
+            entry := Pop();
+            entry.Execute();
         end;
     end;
 
