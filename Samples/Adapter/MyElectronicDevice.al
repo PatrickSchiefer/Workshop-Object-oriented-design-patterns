@@ -10,8 +10,9 @@ codeunit 50100 MyElectronicDevice
     procedure PlugIn()
     begin
         if customPowerAdapterUsed then
+            customPowerAdapter.PlugIn()
+        else
             PlugIn230Volt();
-
         powerConnected := true;
 
     end;

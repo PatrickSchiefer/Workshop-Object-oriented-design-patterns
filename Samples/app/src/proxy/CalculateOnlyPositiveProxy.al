@@ -1,9 +1,11 @@
-﻿codeunit 50117 CalculateOnlyPositiveProxy
+﻿codeunit 50117 CalculateOnlyPositiveProxy implements ICalculate
 {
-    procedure Calculate(a: Integer; b: Integer): Integer;
+    procedure Add(a: Integer; b: Integer): Integer;
+    var
+        calc: Codeunit Calculate;
     begin
         if (a < 0) or (b < 0) then
             Error('Only positive values allowed');
-        exit(a + b);
+        calc.Add(a, b);
     end;
 }
